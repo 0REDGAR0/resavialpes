@@ -8,5 +8,3 @@ php artisan optimize:clear
 php artisan make:controller 
 
 php artisan make:model
-
-Recommit
