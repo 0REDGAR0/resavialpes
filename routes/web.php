@@ -111,7 +111,9 @@ Route::prefix('admin')
     Route::get('/planning', [\App\Http\Controllers\AdminPlanningController::class, 'day'])
         ->name('planning.day');
 
-
+    Route::get('/aircraft', [\App\Http\Controllers\AdminAircraftController::class, 'index'])
+        ->name('aircraft.index');
+        
 });
 
 
